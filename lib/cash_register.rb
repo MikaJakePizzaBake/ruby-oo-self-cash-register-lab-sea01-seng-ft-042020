@@ -6,5 +6,4 @@ class CashRegister
 end
 end
 
-100 = CashRegister.new
-binding.pry
+#binding.pry
