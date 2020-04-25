@@ -5,5 +5,4 @@ class CashRegister
 end
 
 
-'1' = CashRegister.new
-binding.pry
+#binding.pry
