@@ -10,11 +10,11 @@ def add_item(title, price, quantity=1)
 end
 def apply_discount
   #binding.pry
-  if @discount = discount do
+  if @discount = discount
   self.total = ((1-discount/100.to_f)*total).to_i
    "After the discount, the total comes to $#{total}."
  else
    "There is no discount to apply."
  end
-
-end
+ end
+ end
