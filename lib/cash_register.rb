@@ -11,5 +11,7 @@ end
 def apply_discount
   #binding.pry
   self.total = ((1-discount/100.to_f)*total).to_i
+  puts "After the discount, the t
+otal comes to $#{discount}."
 end
 end
