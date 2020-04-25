@@ -4,6 +4,7 @@ class CashRegister
   def initialize
   @total = 0
 end
+end
 
-
-#binding.pry
+100 = CashRegister.new
+binding.pry
