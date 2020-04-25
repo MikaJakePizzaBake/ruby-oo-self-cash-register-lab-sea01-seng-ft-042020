@@ -8,8 +8,5 @@ end
 def add_item(title, price, quantity=1)
   self.total += price * quantity
 end
+end
 binding.pry
-def apply_discount
-
-end
-end
