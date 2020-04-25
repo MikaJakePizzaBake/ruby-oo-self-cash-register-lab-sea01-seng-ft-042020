@@ -9,4 +9,5 @@ def add_item(title, price, quantity=1)
   self.total += price * quantity
 end
 end
+"eggs".add_item("eggs", 5, 2)
 binding.pry
