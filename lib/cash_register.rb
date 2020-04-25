@@ -10,6 +10,6 @@ def add_item(title, price, quantity=1)
 end
 def apply_discount
   #binding.pry
-  self.total = ((discount/100.to_f)*total).to_i
+  self.total = ((1-discount/100.to_f)*total).to_i
 end
 end
