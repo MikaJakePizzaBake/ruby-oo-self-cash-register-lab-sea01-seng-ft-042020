@@ -5,5 +5,5 @@ class CashRegister
 end
 
 
-100 = CashRegister.new
+1 = CashRegister.new
 binding.pry
